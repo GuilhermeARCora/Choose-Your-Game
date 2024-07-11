@@ -92,6 +92,8 @@ btnHold.addEventListener("click", function () {
     } else {
       player1.classList.remove("player--active");
       player2.classList.add("player--active");
+      current1 = 0;
+      current1El.textContent = current1;
     }
   } else {
     score2 += current2;
@@ -105,6 +107,8 @@ btnHold.addEventListener("click", function () {
     } else {
       player2.classList.remove("player--active");
       player1.classList.add("player--active");
+      current2 = 0;
+      current2El.textContent = current2;
     }
   }
 });
