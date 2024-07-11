@@ -46,7 +46,7 @@ btnRoll.addEventListener("click", function () {
   //genarate a value between 1 and 6, show the png acordingly.
   diceNumber = Math.trunc(Math.random() * 6) + 1;
   diceEl.classList.remove("hidden");
-  diceEl.src = `/img/dice-${diceNumber}.png`;
+  diceEl.src = `img/dice-${diceNumber}.png`;
   //check if its a 1, if it is switch players and zero the current score
   if (diceNumber === 1) {
     //find out wich player is active
