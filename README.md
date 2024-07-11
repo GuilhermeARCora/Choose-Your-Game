@@ -18,7 +18,7 @@ The main objective of this project was to practice Java Script and DOM manipulat
 
 ## Main features
 
-- Making buttons handle cliks with Java Script and DOM
+- Making buttons handle clicks with Java Script and DOM
 - Modal windows being opened by click, also being closed by clicking on the 'X'or the overlay and by pressing ESC.
 - Acquiring information through input and sending back responses
 - Manipulating CSS, HTML with Java Script.
