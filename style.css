@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  padding: 1%;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  font-family: "Cairo Play", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  font-size: 190%;
+  background: linear-gradient(
+    to left,
+    #753682 35%,
+    #bf2e34 50%,
+    rgb(0, 0, 0) 20%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8%;
+  box-sizing: border-box;
+}
+
+.left {
+  font-family: "Press Start 2P", sans-serif;
+  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+}
+
+.right {
+  background-color: #000000;
+  font-family: "Nunito", sans-serif;
+  color: white;
+}
+
+.image {
+  max-width: 120%;
+  height: auto;
+  margin: 5%;
+}
+
+#text-left {
+  font-family: "Press Start 2P", sans-serif;
+  color: #000000;
+  font-weight: 600;
+  font-size: 150%;
+}
+
+#text-right {
+  font-family: "Nunito", sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 200%;
+}
